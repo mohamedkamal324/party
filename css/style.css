@@ -1,0 +1,205 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+/* home start  */
+.layer{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    z-index: 222;
+}
+.head{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 660px;
+    position: relative;
+    color: white;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+.header-content h2{
+    font-size: 60px;
+}
+#sideBar{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 666;
+    display: flex;
+}
+.inner-side{
+    padding: 20px 60px;
+    background-color: black;
+    position: relative;
+
+
+}
+.inner-side li{
+    padding: 15px;
+    margin-bottom: 40px;
+    
+}
+.inner-side i{
+    position: absolute;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all .5s;
+}
+.inner-side i:hover{
+    color: brown;
+}
+.inner-side a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: all .5s;
+}
+.inner-side a:hover{
+    color: brown;
+}
+#sideBar span{
+    align-self: flex-start;
+    position: relative;
+    padding: 5px;
+    color: black;
+    font-weight: 500;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.5);
+}
+/* home end  */
+
+
+/* singer start */
+.singer{
+    margin: 200px 0;
+}
+.singer-content{
+    width: 50%;
+}
+.singer h2{
+    background-color: #E68285;
+    margin: 0;
+    cursor: pointer;
+}
+.singer p{
+    background-color: #ccc;
+    padding: 10px;
+    margin: 0;
+    display: none;
+}
+
+/* singer end */
+
+/* counter start */
+.counter{
+    position: relative;
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 330px;
+    margin:150px 0;
+}
+@media screen and (max-width:768px) {
+    .counter{
+        height: 800px;
+    }
+    .singer-content{
+        width: 100%;
+    }
+}
+.counter-layer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    z-index: 88;
+}
+.time{
+    border: 1px solid white;
+    padding: 50px;
+}
+.time p{
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+/* counter end */
+/* contact start  */
+.contact{
+    margin-top: 150px;
+}
+.contact-title h2,.contact-info h3{
+    color: #444444;
+    font-weight: 700;
+}
+.contact-title h2{
+    font-size: 35px;
+}
+.contact-info h3{
+    font-size: 18px;
+}
+.contact-title p{
+    color: #777777
+    ;
+}
+.info-middle-list{
+    list-style: none;
+}
+.info-middle-list li{
+    padding: 15px;
+}
+.info-footer{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-footer i{
+    font-size: 20px;
+    border: solid 1px #999;
+    padding: 12px;
+    margin: 7px;
+    cursor: pointer;
+    color: #999;
+    transition: all .5s;
+}
+.info-footer i:hover{
+    background-color: #D62E33;
+    border: solid 1px #D62E33;
+    color: white;
+
+}
+textarea{
+    resize: none;
+}
+.contact-form p{
+    font-size: 18px;
+    padding: 10px 0;
+}
+.contact-form span{
+    color: #D62E33;
+}
+.sendBtn{
+    background-color: #D62E33;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+}
+/* contact end  */
